@@ -9,13 +9,15 @@
 每个实体中字符按其位置，进行标：（B | 词首），（M | 词中），（E | 词尾），因此数据标签共十种
 
 ## 训练模型
-参见[notebooks](./notebooks)
+参见 [notebooks](./notebooks)
 
 ## 模型：
 - HMM
 - BiLSTM-CRF
 - ALBERT（预训练模型来源：https://github.com/brightmart/albert_zh）
+
 训练完成的模型：[百度网盘链接](https://pan.baidu.com/s/1lIVomat3AAff7HfFzfpRxQ) 提取码：xsdl
+将模型文件保存在项目的 `ner/saved` 文件夹中
 
 ## 性能
 - HMM
